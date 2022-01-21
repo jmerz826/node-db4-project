@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "seed": "knex seed:run",
+    "up": "knex migrate:up",
+    "down": "knex migrate:down"
   },
   "repository": {
     "type": "git",
